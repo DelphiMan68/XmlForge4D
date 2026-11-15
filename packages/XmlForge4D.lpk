@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <Name Value="XmlForge4D"/>
+    <Type Value="RunTimeOnly"/>
+    <Author Value="XmlForge4D contributors"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="../src"/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <SyntaxMode Value="DelphiUnicode"/>
+        </SyntaxOptions>
+      </Parsing>
+    </CompilerOptions>
+    <Description Value="Professional XML processing and XML/JSON conversion for Delphi and Free Pascal"/>
+    <License Value="MIT"/>
+    <Version Major="1"/>
+    <Files Count="10">
+      <Item1>
+        <Filename Value="../src/XmlForge4D.Types.pas"/>
+        <UnitName Value="XmlForge4D.Types"/>
+      </Item1>
+      <Item2>
+        <Filename Value="../src/XmlForge4D.Encoding.pas"/>
+        <UnitName Value="XmlForge4D.Encoding"/>
+      </Item2>
+      <Item3>
+        <Filename Value="../src/XmlForge4D.Parser.pas"/>
+        <UnitName Value="XmlForge4D.Parser"/>
+      </Item3>
+      <Item4>
+        <Filename Value="../src/XmlForge4D.Writer.pas"/>
+        <UnitName Value="XmlForge4D.Writer"/>
+      </Item4>
+      <Item5>
+        <Filename Value="../src/XmlForge4D.Dom.pas"/>
+        <UnitName Value="XmlForge4D.Dom"/>
+      </Item5>
+      <Item6>
+        <Filename Value="../src/XmlForge4D.XPath.pas"/>
+        <UnitName Value="XmlForge4D.XPath"/>
+      </Item6>
+      <Item7>
+        <Filename Value="../src/XmlForge4D.DataModel.pas"/>
+        <UnitName Value="XmlForge4D.DataModel"/>
+      </Item7>
+      <Item8>
+        <Filename Value="../src/XmlForge4D.Json.pas"/>
+        <UnitName Value="XmlForge4D.Json"/>
+      </Item8>
+      <Item9>
+        <Filename Value="../src/XmlForge4D.Convert.pas"/>
+        <UnitName Value="XmlForge4D.Convert"/>
+      </Item9>
+      <Item10>
+        <Filename Value="../src/XmlForge4D.Schema.pas"/>
+        <UnitName Value="XmlForge4D.Schema"/>
+      </Item10>
+    </Files>
+    <RequiredPkgs Count="1">
+      <Item1>
+        <PackageName Value="FCL"/>
+      </Item1>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

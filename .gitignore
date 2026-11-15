@@ -1,0 +1,9 @@
+build/
+*.dcu
+*.ppu
+*.o
+*.exe
+lib/
+__history/
+*.local
+*.identcache

@@ -1,0 +1,46 @@
+package XmlForge4D;
+
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE RELEASE}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'XmlForge4D - Professional XML Processing & Data Conversion for Delphi and Free Pascal'}
+{$RUNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl;
+
+contains
+  XmlForge4D.Types in '..\src\XmlForge4D.Types.pas',
+  XmlForge4D.Encoding in '..\src\XmlForge4D.Encoding.pas',
+  XmlForge4D.Parser in '..\src\XmlForge4D.Parser.pas',
+  XmlForge4D.Writer in '..\src\XmlForge4D.Writer.pas',
+  XmlForge4D.Dom in '..\src\XmlForge4D.Dom.pas',
+  XmlForge4D.XPath in '..\src\XmlForge4D.XPath.pas',
+  XmlForge4D.DataModel in '..\src\XmlForge4D.DataModel.pas',
+  XmlForge4D.Json in '..\src\XmlForge4D.Json.pas',
+  XmlForge4D.Convert in '..\src\XmlForge4D.Convert.pas',
+  XmlForge4D.Schema in '..\src\XmlForge4D.Schema.pas';
+
+end.

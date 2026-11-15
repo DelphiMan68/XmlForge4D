@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="13"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="ExampleDomXPath.lpr"/>
+        <Loaded Value="True"/>
+        <UsageCount Value="20"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="47"/>
+        <CursorPos X="10" Y="69"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\src\XmlForge4D.Types.pas"/>
+        <UsageCount Value="20"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+      </Unit>
+    </Units>
+    <JumpHistory>
+      <Position>
+        <Filename Value="ExampleDomXPath.lpr"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

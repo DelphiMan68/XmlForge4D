@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="13"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="XmlForge4DTests.lpr"/>
+        <Loaded Value="True"/>
+        <UsageCount Value="20"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos Y="11"/>
+      </Unit>
+      <Unit>
+        <Filename Value="XmlForge4D.TestSuite.pas"/>
+        <Loaded Value="True"/>
+        <UsageCount Value="10"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="1155"/>
+        <CursorPos Y="1166"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\src\XmlForge4D.Types.pas"/>
+        <UsageCount Value="20"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\src\XmlForge4D.Parser.pas"/>
+        <Loaded Value="True"/>
+        <UsageCount Value="10"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="512"/>
+        <CursorPos Y="523"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="5">
+      <Position>
+        <Filename Value="XmlForge4DTests.lpr"/>
+      </Position>
+      <Position>
+        <Filename Value="XmlForge4D.TestSuite.pas"/>
+        <Caret Line="15" Column="3" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="XmlForge4DTests.lpr"/>
+        <Caret Line="11"/>
+      </Position>
+      <Position>
+        <Filename Value="XmlForge4D.TestSuite.pas"/>
+        <Caret Line="1166" TopLine="1155"/>
+      </Position>
+      <Position>
+        <Filename Value="XmlForge4DTests.lpr"/>
+        <Caret Line="17" Column="78"/>
+      </Position>
+      <Position>
+        <Filename Value="XmlForge4DTests.lpr"/>
+        <Caret Line="10"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  free-pascal:
+    name: FPC (${{ matrix.os }}, Lazarus ${{ matrix.lazarus }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        lazarus: [stable, dist]
+        exclude:
+          - os: windows-latest
+            lazarus: dist
+          - os: macos-latest
+            lazarus: dist
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Free Pascal / Lazarus
+        uses: gcarreno/setup-lazarus@v3
+        with:
+          lazarus-version: ${{ matrix.lazarus }}
+      - name: Show compiler version
+        run: fpc -iV
+      - name: Build and run tests
+        shell: bash
+        run: ./build_fpc.sh test
+      - name: Build examples
+        shell: bash
+        run: ./build_fpc.sh examples
+
+  # Delphi cannot be installed on hosted runners (licence). Use a self-hosted Windows
+  # runner with RAD Studio and run build_delphi.bat, or run it locally before releasing.

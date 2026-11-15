@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="13"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="XmlForge4DBench.lpr"/>
+        <Loaded Value="True"/>
+        <UsageCount Value="20"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="10" Y="15"/>
+      </Unit>
+      <Unit>
+        <Filename Value="XmlForge4D.Bench.pas"/>
+        <Loaded Value="True"/>
+        <UsageCount Value="10"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="19"/>
+        <CursorPos X="53" Y="18"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\src\XmlForge4D.Types.pas"/>
+        <UsageCount Value="20"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+      </Unit>
+    </Units>
+    <JumpHistory>
+      <Position>
+        <Filename Value="XmlForge4DBench.lpr"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
